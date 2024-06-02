@@ -9,7 +9,7 @@ import("bootstrap/dist/js/bootstrap.bundle.js");
 }, []);
 useEffect(() => {
     //@ts-ignore
-import("jquery/dist/jquery");
+import("jquery/dist/jquery.min.js");
 }, []);
 useEffect(() => {
 typeof document !== undefined ? require('bootstrap/dist/js/bootstrap') : null
